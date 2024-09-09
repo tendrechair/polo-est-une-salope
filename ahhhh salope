@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLO EST UNE SALOPE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>POLO EST UNE SALOPE</h1>
+        <nav>
+            <ul>
+                <li><a href="#Pourquoi">Pourquoi ?</a></li>         		   
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="Pourquoi">
+            <h2>Pourquoi ?</h2>
+            <p>Pourquoi polo est une salope ?</p>			
+    <button id="ouvrir-dialog">Vas y clique si t'a des couilles</button>
+    
+    <dialog id="ma-dialog">
+        <h2>T'es une salope</h2>
+        <p>Mais on t'aime quand meme par pitié continue a me booster</p>
+        <button id="fermer-dialog">Ferme sale pute</button>
+    </dialog>
+
+    <script>
+        const ouvrirDialog = document.getElementById('ouvrir-dialog');
+        const maDialog = document.getElementById('ma-dialog');
+        const fermerDialog = document.getElementById('fermer-dialog');
+
+        ouvrirDialog.addEventListener('click', () => {
+            maDialog.showModal(); // Ouvre la fenêtre de dialogue
+        });
+
+        fermerDialog.addEventListener('click', () => {
+            maDialog.close(); // Ferme la fenêtre de dialogue
+        });
+    </script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giga beuteu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centre le texte */
+            margin: 50px; /* Ajoute une marge */
+        }
+
+        img {
+            width: 100px; /* Largeur de l'image */
+            height: auto; /* Hauteur automatique pour conserver les proportions */
+        }
+    </style>
+</head>
+<body>
+    <h1>Une grosse bite rien que pour toi</h1>
+    <img src="https://www.jemontremabite.com/photos/528963-grosse-bite-bite-monstre-enorme-bite-big-dick-" alt="une giga beuteu">
+    <p>Ceci est une giga beuteu oui monsieur</p>
+</body>
+	
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Polo est une salope. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
